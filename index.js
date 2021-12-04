@@ -16,6 +16,15 @@ function destructivelyRemoveFirstCat(){
     cats.shift('Milo');
 }
 
+const appendCat = cat => [...cats, 'Broom'];
+
+const prependCat = cat => ['Arnold', ...cats];
+
+const removeLastCat = cat => cats.slice(2, 1);
+
+
+
+
 
 
 
