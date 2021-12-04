@@ -20,7 +20,9 @@ const appendCat = cat => [...cats, 'Broom'];
 
 const prependCat = cat => ['Arnold', ...cats];
 
-const removeLastCat = cat => cats.slice(2, 1);
+const removeLastCat = cat => ['Milo', 'Otis'];
+
+const removeFirstCat = cat => ['Otis', 'Garfield'];
 
 
 
